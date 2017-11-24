@@ -7,6 +7,7 @@
 h1
 {
 	text-align: center;
+ 
 }
 
 
@@ -17,18 +18,17 @@ h1
 	top: 0;
 	text-align: center;
 	width:35%;
-	border:2px solid black;
+	border:1px solid black;
 	border-top:none;
 	border-right: none;
 	font-weight: bolder;
 	font-size: 120%;
-	margin-bottom:4%;
 }
 
 .content
 {
-	padding: 3%;
-	margin-top:4%;
+	padding: 15px 10px 10px 10px;;
+  margin:0.6em;
 }
 
 .first
@@ -48,7 +48,7 @@ h1
 
 [class*="col-"] {
     float: left;
-   border:2px solid black;
+   border:1px solid black;
 	float: left;
 	position: relative;
 	background: gray;
@@ -113,8 +113,8 @@ h1
 margin-right: 2%;
 
   }
-
-[class*="col-"]:nth-child(even)
+ 
+[class*="col-"]:nth-child(even) 
 {
 	margin: 0;
 
@@ -124,7 +124,9 @@ margin-right: 2%;
 
   	margin: 0;
    width: 100%;
+  
 }
+
 
   .col-md-1 {
     width: 8.33%;
@@ -165,14 +167,5 @@ margin-right: 2%;
 
 
 
-/********** small devices only **********/
-  @media (max-width: 767) {
-  .col-sm-12{
-    float: left;
-    margin-bottom: 3%;
-    width: 100%;
-  }
-
-  }
 
 
