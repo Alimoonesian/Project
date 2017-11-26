@@ -1,5 +1,5 @@
 (function () {
-var names = ["Yaakov", "John", "jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
 document.write("<h1 style='color: Green;'>mod4_solution</h1>");
 for (var i = 0; i < names.length; i++) {
